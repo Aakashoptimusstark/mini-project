@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cricket Game</title>
+  <link rel="stylesheet" href="cricket.css">
+</head>
+
+<body>
+  <h1>Bat Ball Stump Game </h1>
+
+  <button class="choice-button" onclick="
+  let computerChoice = generatedComputerChoice();
+
+  let resultMsg = getResult('Bat', computerChoice);
+
+  showResult('Bat', computerChoice, resultMsg);
+  
+  "><img src="images\bat.jpeg"
+      alt="bat image" class="cimg" height="50px"></button>
+
+  <!-- Ball buuton  -->
+
+  <button class="choice-button" onclick="
+  computerChoice = generatedComputerChoice();
+
+  resultMsg = getResult('Ball', computerChoice);
+  
+  showResult('Ball', computerChoice, resultMsg);  
+  
+  "><img src="images\ball.jpeg"
+      alt="ball image" class="cimg" height="50px"></button>
+
+  <!-- Stump button  -->
+
+  <button class="choice-button" onclick="
+  computerChoice = generatedComputerChoice();
+  
+  resultMsg = getResult('Stump', computerChoice);
+
+  showResult('Stump', computerChoice, resultMsg); 
+  "><img src="images\stump.jpeg" alt="stump"
+      class="cimg" height="50px"></button>
+
+
+
+  <h3 id="user-move"></h3>
+  <h3 id="computer-move"></h3>
+  <h3 id="result"></h3>
+  <h3 id="score"></h3>
+  <button class="ret" onclick="localStorage.clear()
+    resetScore(scoreStr);
+    "><img
+      src="images\reset.jpeg"
+      alt="reset" class="reset-img" height="50px"></button>
+
+  <script src="cricket.js">
+  </script>
+</body>
+
+</html>

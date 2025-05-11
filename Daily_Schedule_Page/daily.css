@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+  background-color: antiquewhite;
+  font-family: arial;
+}
+
+h1 {
+  text-align: center;
+
+}
+
+.add {
+  height: 30px;
+  width: 80px;
+  background-color: darkgreen;
+  color: white;
+  font-size: 14px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.delete {
+  height: 30px;
+  width: 80px;
+  background-color: rgb(198, 48, 7);
+  color: white;
+  font-size: 14px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.box {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 150px 150px 150px; 
+  margin: 0 auto;
+  font-size: 20px;
+  column-gap: 6px;
+  row-gap: 15px;
+  margin-top: 15px;
+  align-items: center;
+}
+
+
+#daily-input, #daily-date, #daily-time {
+  font-size: 15px;
+  padding: 10px 5px;
+  /* width: 170px; */
+  height: 10px;
+}
+

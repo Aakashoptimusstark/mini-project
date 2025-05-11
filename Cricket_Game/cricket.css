@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(238, 152, 55);
+  text-align: center;
+  position: relative;
+  top: 120px;
+  }
+
+.choice-button {
+  border: none;
+  background-color: rgb(188, 188, 229);
+  border-radius: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.cimg {
+  border-radius: 30px;
+}
+
+.reset-img {
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.ret {
+  height: 45px;
+  width: 100px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(221, 107, 107);
+  cursor: pointer;
+}
