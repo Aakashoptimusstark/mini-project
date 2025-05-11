@@ -1,8 +1,11 @@
 body {
-  background-color: rgb(238, 152, 55);
+  background-image: url(images/stadium.jpeg);
+  background-size: cover;
+
   text-align: center;
   position: relative;
   top: 120px;
+  
   }
 
 .choice-button {
