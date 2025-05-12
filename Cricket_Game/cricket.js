@@ -16,6 +16,34 @@ function resetScore(scoreStr) {
 
 }
 
+function funBat() {
+  let computerChoice = generatedComputerChoice();
+
+  let resultMsg = getResult('Bat', computerChoice);
+
+  showResult('Bat', computerChoice, resultMsg);
+}
+
+function funBall() {
+  computerChoice = generatedComputerChoice();
+
+  resultMsg = getResult('Ball', computerChoice);
+  
+  showResult('Ball', computerChoice, resultMsg); 
+}
+
+function funStump() {
+  computerChoice = generatedComputerChoice();
+  
+  resultMsg = getResult('Stump', computerChoice);
+
+  showResult('Stump', computerChoice, resultMsg);
+}
+
+function funReset() {
+  localStorage.clear()
+  resetScore(scoreStr);
+}
 
 
 function generatedComputerChoice() {
