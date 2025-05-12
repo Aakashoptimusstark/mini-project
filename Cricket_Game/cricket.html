@@ -9,28 +9,38 @@
 </head>
 
 <body>
+  <a href="#"><img class="logo" src="images\logo.png" alt="you"></a>
+  <a href="#"><img class="logo2" src="images\logo2.jpeg" alt="computer"></a>
+  
+  
+
   <h1>Bat Ball Stump Game </h1>
 
-  <button class="choice-button" onclick="funBat()"><img src="images\bat.jpeg"
-      alt="bat image" class="cimg" height="75px"></button>
 
-  <!-- Ball buuton  -->
+  <div>
+    <button class="choice-button" onclick="funBat()"><img src="images\bat.jpeg"
+        alt="bat image" class="cimg" height="75px"></button>
 
-  <button class="choice-button" onclick="funBall()"><img src="images\ball.jpeg"
-      alt="ball image" class="cimg" height="70px"></button>
+    <!-- Ball buuton  -->
 
-  <!-- Stump button  -->
+    <button class="choice-button" onclick="funBall()"><img src="images\ball.jpeg"
+        alt="ball image" class="cimg" height="70px"></button>
 
-  <button class="choice-button" onclick="funStump()"><img src="images\stump.jpeg" alt="stump"
-      class="cimg" height="75px"></button>
+    <!-- Stump button  -->
 
-  <h1 id="user-move"></h1>
-  <h1 id="computer-move"></h1>
-  <h1 id="result"></h1>
-  <h1 id="score"></h1>
-  <button class="ret" onclick="funReset()"><img
-      src="images\reset.jpeg"
-      alt="reset" class="reset-img" ></button>
+    <button class="choice-button" onclick="funStump()"><img src="images\stump.jpeg" alt="stump"
+        class="cimg" height="75px"></button>
+
+    <h1 id="user-move"></h1>
+    <h1 id="computer-move"></h1>
+    <h1 id="result"></h1>
+    <h1 id="score"></h1>
+    <button class="ret" onclick="funReset()"><img
+        src="images\reset.jpeg"
+        alt="reset" class="reset-img" ></button>
+  </div>
+
+  
 
   <script src="cricket.js">
   </script>

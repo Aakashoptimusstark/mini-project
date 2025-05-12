@@ -7,6 +7,47 @@ body {
   top: 120px;
   
   }
+  
+.logo {
+  height: 120px;
+  width: 120px;
+  padding: 5px;
+  margin: 20px;
+  border-radius: 50%;
+  /* text-align: center; */
+  position: fixed;
+  
+
+  animation: square 18s ease-in-out 1s infinite alternate;
+}
+
+@keyframes square {
+  0% {
+    left: 0%;
+    top: 50%;
+  }
+  
+  25% {
+    left: 40%;
+    top: 90%;
+  }
+
+  50% {
+    left:90%;
+    top: 40%;
+  }
+
+  75% {
+    left: 50%px;
+    top: 0%;
+  }
+
+  100% {
+    left: 0%;
+    top: 50%;
+  }
+
+}
 
 .choice-button {
   border: 2px solid goldenrod ;
@@ -34,4 +75,46 @@ body {
   border: none;
   background-color: rgb(221, 107, 107);
   cursor: pointer;
+}
+
+.logo2 {
+  height: 120px;
+  width: 120px;
+  padding: 5px;
+  margin: 20px;
+  border-radius: 50%;
+  /* text-align: center; */
+  position: fixed;
+  
+
+  animation: square2 18s ease-in-out 1s infinite alternate;
+}
+
+@keyframes square2 {
+  0% {
+    left: 0%;
+    top: 50%;
+  }
+  
+  25% {
+    left: 50%px;
+    top: 0%;
+  }
+
+  50% {
+    left:90%;
+    top: 40%;
+  }
+
+  75% {
+    
+    left: 40%;
+    top: 90%;
+  }
+
+  100% {
+    left: 0%;
+    top: 50%;
+  }
+
 }
