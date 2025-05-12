@@ -1,3 +1,6 @@
+const Name= prompt("Hello👋.. Your Lucky Name")
+document.querySelector("h2").innerHTML="Hello "+ Name;
+
 let scoreStr = localStorage.getItem('score');
 let score;
 resetScore();
