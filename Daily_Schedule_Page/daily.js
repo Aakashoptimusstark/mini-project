@@ -1,3 +1,5 @@
+const Name= prompt("Hello👋.. Your Lucky Name")
+document.querySelector("h2").innerHTML="Hello "+ Name;
 let dailyList = [
   {
     item: 'wake up',
