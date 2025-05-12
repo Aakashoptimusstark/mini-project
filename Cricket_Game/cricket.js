@@ -105,7 +105,7 @@ function getResult(userMove, computerMove) {
 function showResult(userMove, computerMove, result) {
   localStorage.setItem('Score', JSON.stringify(score));
 
-  document.querySelector('#user-move').innerText = userMove ? `you choosen ${userMove}` : '';
+  document.querySelector('#user-move').innerText = userMove ? `${Name} choosen ${userMove}` : '';
 
   document.querySelector('#computer-move').innerText = computerMove ? `computer chosen ${computerMove}` : '';
 
